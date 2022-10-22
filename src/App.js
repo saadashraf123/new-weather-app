@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import DetailPage from './component/DetailPage';
+import FullPageDetails from './component/FullPageDetails';
+import MainPage from './component/MainPage';
+import Weather from './component/Weather';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='App'>
+            <Routes>
+                {/* <Weather /> */}
+                {/* <DetailPage /> */}
+                <Route path="/" element={<MainPage />} />
+                <Route path="fullPageDetails" element={<FullPageDetails />} />
+            </Routes>
+
+        </div>
+    );
 }
 
 export default App;
