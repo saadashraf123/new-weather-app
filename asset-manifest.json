@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/saadashraf123/new-weather-app/static/css/main.522b5bb9.css",
-    "main.js": "/saadashraf123/new-weather-app/static/js/main.049125b0.js",
-    "static/js/787.be73f74f.chunk.js": "/saadashraf123/new-weather-app/static/js/787.be73f74f.chunk.js",
+    "main.js": "/saadashraf123/new-weather-app/static/js/main.39935310.js",
+    "static/js/787.206c07a4.chunk.js": "/saadashraf123/new-weather-app/static/js/787.206c07a4.chunk.js",
     "index.html": "/saadashraf123/new-weather-app/index.html",
     "main.522b5bb9.css.map": "/saadashraf123/new-weather-app/static/css/main.522b5bb9.css.map",
-    "main.049125b0.js.map": "/saadashraf123/new-weather-app/static/js/main.049125b0.js.map",
-    "787.be73f74f.chunk.js.map": "/saadashraf123/new-weather-app/static/js/787.be73f74f.chunk.js.map"
+    "main.39935310.js.map": "/saadashraf123/new-weather-app/static/js/main.39935310.js.map",
+    "787.206c07a4.chunk.js.map": "/saadashraf123/new-weather-app/static/js/787.206c07a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.522b5bb9.css",
-    "static/js/main.049125b0.js"
+    "static/js/main.39935310.js"
   ]
 }
