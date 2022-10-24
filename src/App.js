@@ -12,8 +12,8 @@ function App() {
             <Routes>
                 {/* <Weather /> */}
                 {/* <DetailPage /> */}
-                <Route path="/" element={<MainPage />} />
-                <Route path="fullPageDetails" element={<FullPageDetails />} />
+                <Route path="new-weather-app" element={<MainPage />} />
+                <Route path="new-weather-app/fullPageDetails" element={<FullPageDetails />} />
             </Routes>
 
         </div>
